@@ -18,6 +18,8 @@ return require('packer').startup(function(use)
   use 'nvim-tree/nvim-web-devicons'
   use 'nvim-lualine/lualine.nvim'
   use 'nvim-treesitter/nvim-treesitter'
+  use 'windwp/nvim-ts-autotag'
+  use 'windwp/nvim-autopairs'
   use {
     'williamboman/mason.nvim',
     'williamboman/mason-lspconfig.nvim',
@@ -35,6 +37,8 @@ return require('packer').startup(function(use)
   use 'L3MON4D3/LuaSnip'
   use 'rafamadriz/friendly-snippets'
   use 'saadparwaiz1/cmp_luasnip'
+  use 'lewis6991/gitsigns.nvim'
+  use 'romgrk/barbar.nvim'
   -- My plugins here
   -- use 'foo1/bar1.nvim'
   -- use 'foo2/bar2.nvim'
