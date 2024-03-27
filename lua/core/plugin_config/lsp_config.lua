@@ -6,6 +6,9 @@ require("mason-lspconfig").setup({
     "tsserver",
     "vtsls",
     "quick_lint_js",
+    "html",
+    "graphql",
+    "rust_analyzer",
   }
 })
 
@@ -25,3 +28,9 @@ require("lspconfig").lua_ls.setup{
   on_attach = on_attach,
   capabilities = capabilities,
 }
+
+require("lspconfig").tsserver.setup{
+  on_attach = on_attach,
+  capabilities = capabilities,
+}
+

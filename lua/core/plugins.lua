@@ -39,6 +39,10 @@ return require('packer').startup(function(use)
   use 'saadparwaiz1/cmp_luasnip'
   use 'lewis6991/gitsigns.nvim'
   use 'romgrk/barbar.nvim'
+  use 'kevinhwang91/nvim-hlslens'
+  use 'lewis6991/gitsigns.nvim'
+  use 'petertriho/nvim-scrollbar'
+  use 'nvim-telescope/telescope-live-grep-args.nvim'
   -- My plugins here
   -- use 'foo1/bar1.nvim'
   -- use 'foo2/bar2.nvim'
